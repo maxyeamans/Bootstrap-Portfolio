@@ -8,14 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="icon" type="image/jpg" href="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg"
+    />
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Max</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-light mb-4 py-0">
+        <a class="navbar-brand bg-info px-2 text-light font-weight-bold" href="index.html">Max Yeamans</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About
+                    <a class="nav-link" href="index.html">About
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -34,29 +35,38 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-            </ul>            
+            </ul>
         </div>
     </nav>
-    
+
     <!-- Site Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="jumbotron">
-                    <h1>About Me</h1>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-8">
-                <img src="assets/images/profile_pic_sm.JPG" class="rounded float-left" alt="Profile pic" />
-                <p>Text placeholder</p>
-            </div>
-            <div class="col-sm-4">
-                <h2>Connect With Me</h2>
-            </div>
-        </div>
+
+    <div class="container bg-white border border-light mb-5">
+
+        <p>
+            <h1 class="text-info font-weight-bold">About Me</h1>
+        </p>
+        <img src="assets/images/profile_pic_sm.JPG" class="float-sm-left p-3" />
+        
+        <p class="text-white-20">My name's Max Yeamans, and I currently reside in Arizona (actually, I've always lived in Arizona). I first got into
+            coding when I was in sixth grade; after finding out that one of my favorite video game fan sites was run by some
+            guys not much older than myself, I decided to learn how to make web pages, too. I spent a couple years maintaining
+            web sites on such esteemed services as Geocities and Angelfire.</p>
+        <p>My interest in coding has waxed and waned since then. I got into drumming, which led to playing in high school marching
+            band,
+            <a href="https://www.youtube.com/watch?v=QE3tSDK6uq8">drum corps</a> (I'm the guy in the sun on the far right), and the Phoenix Suns. In college, I got really into
+            learning ancient Latin and Greek, and eventually graduated with a degree in Classical Studies. (The irony of
+            having a degree in dead languages and also being interested in coding is not lost on me.)</p>
+        <p>In addition to web development, I have a little bit of experience in object-oriented programming (Visual Basic, C#,
+            Java) and SQL. JavaScript is what originally scared me away from learning to code so many years ago, so I'm hoping
+            to make that one of my main focuses over the coming months.</p>
+        
+
+
     </div>
+
+    <!-- Footer -->
+    <footer class="fixed-bottom pt-3 pb-2 bg-secondary text-center text-light border-top border-info small mt-5">Copyright &copy; 2018 Max Yeamans</footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
