@@ -6,3 +6,7 @@ body {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 24px;
 }
+
+.card-body {
+    bottom: .5rem;
+}
