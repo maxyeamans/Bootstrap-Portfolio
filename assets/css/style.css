@@ -7,6 +7,15 @@ body {
     font-size: 24px;
 }
 
+.border, .border-bottom {
+    border-color: #cccccc !important;
+    border-width: 2px !important;
+}
+
+.border-top {
+    border-width: 5px !important;
+}
+
 .card-body {
     bottom: .5rem;
 }
